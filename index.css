@@ -17,8 +17,6 @@
 body{
     background:url(images/pattern-background-mobile.svg);
     background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
     background-color: var(--pale-blue);
     margin-top: 10%;
 }
@@ -41,8 +39,6 @@ body{
     body{
         background: url(images/pattern-background-desktop.svg);
         background-color: var(--pale-blue);
-        background-repeat: no-repeat;
-        background-position: center;
         background-size: cover;
     }
     
