@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{  
+        --pale-blue: hsl(225, 100%, 94%);
+        --bright-blue: hsl(245, 75%, 52%);
+        --very-pale-blue: hsl(225, 100%, 98%);
+        --desaturated-blue: hsl(224, 23%, 55%);
+        --dark-blue: hsl(223, 47%, 23%);
+}
+
+body{
+    background:url(images/pattern-background-mobile.svg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: var(--pale-blue);
+    margin-top: 10%;
+}
+
+.card-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 20rem;
+    margin: auto;
+    background-color: white;
+    border-radius: 1rem;
+    font-family: "red hat display", sans-serif;
+    box-shadow: var(--bright-blue) 0px 13px 30px -16px, var(--bright-blue) 0px 8px 0px -8px;
+}
+
+@media screen and (min-width: 376px){
+
+    body{
+        background: url(images/pattern-background-desktop.svg);
+        background-color: var(--pale-blue);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+    
+    .card-container{
+        max-width: 25rem;
+    }
+}
+
+.header-img{
+    max-width: 100%;
+    border-top-right-radius: 1rem;
+    border-top-left-radius: 1rem;
+}
+
+h1{
+    margin-top: 1.75rem;
+    font-size: 1.3rem;
+    color: var(--dark-blue);
+    font-weight: 900;
+}
+
+.flavor-text{
+    margin: 1.5rem 1.5rem 0rem 1.5rem;
+    text-align: center;
+    font-size: 1rem;
+    color: var(--desaturated-blue);
+    font-weight: 300;
+}
+
+.price-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color:var(--very-pale-blue);
+    width: 90%;
+    padding: 1rem;
+    text-align: center;
+    margin-top: 1.5rem;
+    border-radius: 1rem;
+}
+
+@media screen and (min-width: 376px){
+    h1{
+        font-size: 1.6rem;
+        margin-top: 2rem;
+    }
+    .price-container{
+        justify-content: space-between;
+        width: 80%
+    }
+
+    span{
+        display: block;
+    }
+
+    .icon-container img{
+        margin-right: 1.5rem;
+    }
+
+    .icon-container a{
+        margin-right: 1rem;
+    }
+}
+.icon-container{
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     align-items: center;
+}
+
+.icon-container P{
+    margin-left: -.2rem;
+    font-size: .9rem;
+    line-height: 1.3rem;
+    margin-right: 2rem;
+    color: var(--desaturated-blue);
+}
+
+span{
+    color: var(--dark-blue);
+    font-weight: 900;
+    font-size: .9rem;
+}
+
+a{
+    color: var(--bright-blue);
+    font-weight: 700;
+    font-size: .8rem;
+}
+
+a:hover{
+    text-decoration: none;
+    cursor: pointer;
+    opacity: 75%;
+}
+
+button{
+    margin-top: 1.5rem;
+    padding: .8rem;
+    width: 90%;
+    border-radius:.75rem;
+    background-color: var(--bright-blue);
+    color: white;
+    font-size: .9rem;
+    font-weight: 700;
+    font-family: "red hat display", sans-serif;
+    box-shadow: var(--bright-blue) 0px 13px 30px -16px, var(--bright-blue) 0px 8px 0px -8px;
+}
+
+button:hover{
+    cursor: pointer;
+    opacity: 75%;
+}
+
+@media screen and (min-width: 376px){
+    button{
+        width: 80%;
+    }
+}
+h2{
+    margin-top: 1.5rem;
+    margin-bottom: 3rem;
+    font-size: .9rem;
+    color: var(--desaturated-blue);
+    font-weight: 900;
+}
+
+h2:hover{
+    color: var(--dark-blue);
+}
+
+footer{
+    margin-top: 3.5rem;
+}
+
+@media screen and (min-width: 376px){
+    footer{
+        margin-top: 7rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  .attribution { font-size: 11px; text-align: center; }
+  .attribution a { color: hsl(228, 45%, 44%); }
