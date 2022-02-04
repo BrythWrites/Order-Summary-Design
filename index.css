@@ -59,7 +59,8 @@ body{
     mix-blend-mode: multiply;
 }
 
-/* Psuedo class applied to create image tint overlay */
+/* Psuedo class applied to create image tint overlay 
+REMOVED -- added background color and opacity to .img-container and "mix-blend-mode: multiply" to images to get more vibrant effect*/
 
 /* .img-container:after{
     position: absolute;
